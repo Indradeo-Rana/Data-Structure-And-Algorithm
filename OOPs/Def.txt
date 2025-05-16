@@ -1,0 +1,11 @@
+Oops is a fundamental concept of java programming because it allow the developers to structure the code using class 
+and objects, making it more modular, resuable and scalable.
+
+The core idea of Oops is to blind the data and function that operate on it, preventing unauthorised access from other
+parts of the code.
+
+Oops have four main pillars :-
+    1. Abstraction
+    2. encapsulation
+    3. Inheritance
+    4. Polymorphism

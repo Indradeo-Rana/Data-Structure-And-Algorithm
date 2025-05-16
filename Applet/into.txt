@@ -1,0 +1,23 @@
+✅ What is an Applet in Java?
+An Applet is a small Java program that runs inside a web browser or an applet viewer. 
+It is used for creating interactive web-based applications like animations, games, or graphics.
+
+🔑 Key Points:
+Applet runs on the client side.
+
+It does not have a main() method.
+
+It extends the java.applet.Applet or javax.swing.JApplet class.
+
+Uses HTML to embed into a webpage.
+
+It has special lifecycle methods: init(), start(), stop(), destroy().
+
+💡 Applet Lifecycle Methods:
+Method	Description
+init()	Called once when applet is loaded
+start()	Called each time applet starts
+stop()	Called when applet is stopped
+destroy()	Called when applet is destroyed
+
+Example in next file..

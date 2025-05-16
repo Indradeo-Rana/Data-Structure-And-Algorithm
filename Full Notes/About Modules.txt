@@ -1,0 +1,79 @@
+Java is a programming suite --> provides all fecilities to biuld n no applications.
+ ========= 3 modules ==============
+	a) JSE 
+	b) JEE
+	c) JME
+
+==========JSE (Java Standard Edition)
+=> it is installable s/w as jdk
+=> version of java =? and jdk =?
+=> this id used to develop stand-alone and an applet
+
+======= JEE (Java Enterprises Edition)
+=> it is not installable s/w as jdk
+=> we can develop enterprise application(web apps / distributed apps)
+
+🌐 1. What are Web Applications in Java EE?
+Web Apps are applications that run on a web server and are accessed via a browser.(client app s/w
+
+✅ Key Features:
+Built using Servlets, JSP, and JSF.
+
+Deployed in a web container (like Apache Tomcat).
+
+Uses HTTP protocol.
+
+Focus is on presentation layer (front-end + logic).
+
+🔧 Technologies:
+Servlets – Handle HTTP requests/responses.
+
+JSP (JavaServer Pages) – Embed Java code in HTML.
+
+JSF (JavaServer Faces) – UI framework for Java web apps.
+
+🧾 Example:
+A simple online shopping website that lets users browse items, add to cart, and place orders.
+
+🌐 2. What are Distributed Applications in Java EE?
+Distributed Apps are applications where components run on multiple networked systems but work together as one.
+
+✅ Key Features:
+Built using EJB (Enterprise JavaBeans), JMS (Java Messaging Service), JAX-RS / JAX-WS.
+
+Supports load balancing, scalability, and remote access.
+
+Focus is on business logic, messaging, and remote method invocation.
+
+🔧 Technologies:
+EJB – Server-side components for business logic.
+
+JMS – Messaging between distributed systems (asynchronous).
+
+RMI, CORBA, Web Services – For communication across systems.
+
+🧾 Example:
+A banking system where:
+
+Web app handles customer interactions,
+
+Backend EJB handles transactions,
+
+A remote service checks credit scores via SOAP/REST.
+
+Java EE provides a modular and scalable framework to build:
+
+Web apps (using Servlets, JSP, JSF)
+REST/SOAP APIs (using JAX-RS, JAX-WS)
+Backend business logic (using EJB, CDI)
+Messaging systems (using JMS)
+Database interactions (using JPA, JDBC)
+
+
+======== JME  (Java Micro Edition )
+it is installable s/w as mdk
+ version =?
+it  support embedded system and AI
+
+
+

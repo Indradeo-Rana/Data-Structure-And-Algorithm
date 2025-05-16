@@ -1,0 +1,22 @@
+to create jar files => or archive
+===========================
+
+
+step 1  in cmd traverse to file
+step 2 jar cf  jar_name . jar .      or
+           jar cvf  jar_name . jar .
+
+c---> create jar file/ archieve 
+f-----> specify jar file name
+v----> verbose mode 
+
+
+to see the table of content of jar file
+=============================
+ C:\Users\User\Desktop\JAVA\JarDemo> jar tf app1.jar
+
+output:
+META-INF/
+META-INF/MANIFEST.MF
+CREATE TABLE departments.docx
+instruction.txt

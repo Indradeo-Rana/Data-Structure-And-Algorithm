@@ -57,8 +57,11 @@ public class LonestedSubArraySum {
     }
 
     public static void main(String[] args) {
-        int[] arr = { 2, 3, 5, 1, 9 };
-        int target = 10;
+        // int[] arr = { 2, 3, 5, 1, 9 };
+        int[] arr = { 10, 5, 2, 7,1, -10 };
+        int target = 15;
+        // int [] arr={94 ,-33, -13, 40, -82, 94, -33, -13 ,40, -82};
+
         subArray(arr, target);
         // subArray1(arr, target);
     }
